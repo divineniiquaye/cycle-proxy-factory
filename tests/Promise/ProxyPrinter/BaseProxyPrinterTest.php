@@ -24,7 +24,7 @@ use PhpParser\PrettyPrinterAbstract;
 use ReflectionClass;
 use ReflectionException;
 use Spiral\Core\Container;
-use Spiral\Database\Driver\SQLite\SQLiteDriver;
+use BiuradPHP\Database\Driver\SQLite\SQLiteDriver;
 use Throwable;
 
 abstract class BaseProxyPrinterTest extends BaseTest

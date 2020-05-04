@@ -22,9 +22,8 @@ use Doctrine\Instantiator\Exception\ExceptionInterface;
 use Doctrine\Instantiator\Instantiator;
 use ReflectionClass;
 use ReflectionException;
-use Spiral\Core\Container\SingletonInterface;
 
-final class ProxyFactory implements PromiseFactoryInterface, SingletonInterface
+final class ProxyFactory implements PromiseFactoryInterface
 {
     /** @var Extractor */
     private $extractor;

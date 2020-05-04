@@ -1,5 +1,5 @@
 {
-  "name": "cycle/proxy-factory",
+  "name": "divineniiquaye/cycle-proxy-factory",
   "type": "module",
   "license": "MIT",
   "description": "Proxy Factory Interface implementation for cycle ORM",
@@ -8,13 +8,12 @@
     "ext-mbstring": "*",
     "nikic/php-parser": "^4.2",
     "doctrine/instantiator": "^1.2",
-    "cycle/orm": "^1.1",
-    "spiral/files": "^2.0"
+    "divineniiquaye/cycle-orm": "^1.2"
   },
   "require-dev": {
     "ext-pdo": "*",
     "phpunit/phpunit": "~8.0",
-    "cycle/annotated": "^1.0",
+    "divineniiquaye/cycle-annotatation": "^1.2",
     "spiral/code-style": "^1.0",
     "roave/security-advisories": "dev-master"
   },

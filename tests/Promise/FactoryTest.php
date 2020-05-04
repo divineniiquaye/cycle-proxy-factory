@@ -25,7 +25,7 @@ use Cycle\ORM\Transaction;
 use Cycle\Schema;
 use PDO;
 use Spiral\Core\Container;
-use Spiral\Database\Driver\SQLite\SQLiteDriver;
+use BiuradPHP\Database\Driver\SQLite\SQLiteDriver;
 use Throwable;
 
 class FactoryTest extends BaseTest

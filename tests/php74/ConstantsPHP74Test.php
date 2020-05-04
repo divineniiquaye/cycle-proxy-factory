@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Cycle\ORM\Promise\Tests74;
 
+use BiuradPHP\DependencyInjection\Container;
 use Cycle\ORM\Promise\Declaration\DeclarationInterface;
 use Cycle\ORM\Promise\Declaration\Declarations;
 use Cycle\ORM\Promise\Exception\ProxyFactoryException;
@@ -20,7 +21,6 @@ use PhpParser\PrettyPrinterAbstract;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 use ReflectionException;
-use Spiral\Core\Container;
 use Throwable;
 
 use function Cycle\ORM\Promise\phpVersionBetween;

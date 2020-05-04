@@ -17,13 +17,13 @@ use Cycle\ORM\ORM;
 use Cycle\ORM\ORMInterface;
 use Cycle\ORM\SchemaInterface;
 use PHPUnit\Framework\TestCase;
-use Spiral\Database\Config\DatabaseConfig;
-use Spiral\Database\Database;
-use Spiral\Database\DatabaseManager;
-use Spiral\Database\Driver\Driver;
-use Spiral\Database\Driver\Handler;
-use Spiral\Tokenizer\ClassesInterface;
-use Spiral\Tokenizer\Config\TokenizerConfig;
+use BiuradPHP\Database\Config\DatabaseConfig;
+use BiuradPHP\Database\Database;
+use BiuradPHP\Database\DatabaseManager;
+use BiuradPHP\Database\Driver\Driver;
+use BiuradPHP\Database\Driver\Handler;
+use BiuradPHP\Tokenizer\ClassesInterface;
+use BiuradPHP\Tokenizer\Config\TokenizerConfig;
 use Spiral\Tokenizer\Tokenizer;
 
 abstract class BaseTest extends TestCase

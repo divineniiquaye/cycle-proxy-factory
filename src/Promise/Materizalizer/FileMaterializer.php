@@ -14,11 +14,10 @@ namespace Cycle\ORM\Promise\Materizalizer;
 use Cycle\ORM\Promise\MaterializerInterface;
 use Exception;
 use ReflectionClass;
-use Spiral\Core\Container\SingletonInterface;
 
 use function Cycle\ORM\Promise\trimPHPOpenTag;
 
-final class FileMaterializer implements MaterializerInterface, SingletonInterface
+final class FileMaterializer implements MaterializerInterface
 {
     /** @var ModificationInspector */
     private $inspector;
